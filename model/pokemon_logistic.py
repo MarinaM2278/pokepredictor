@@ -1,15 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 import pandas as pd
-#import seaborn as sns
 import numpy as np
-import os
-import catboost as cb
-import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
