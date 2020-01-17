@@ -9,7 +9,6 @@ import pandas as pd
 import numpy as np
 import os
 import catboost as cb
-from catboost import Pool, CatBoostRegressor, CatBoostClassifier
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 
